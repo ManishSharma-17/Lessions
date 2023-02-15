@@ -1,0 +1,214 @@
+row
+col
+
+screen sizes(Breakpoints)
+
+xsm  < 576px
+sm  >= 576px
+md  >= 768px
+lg  >= 992px
+xl  >= 1200px
+2xl >= 1400px
+
+html
+    elements
+        inline
+        block-level
+    Attributes
+
+css
+    inline
+    internal
+    external
+property: value; (Pair)
+
+
+layout + thinking
+
+css + property
+
+1 row = col-12 = 100%;
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+We can wirte CSS by three ways:
+    inline
+    internal
+    external
+
+padding= into the box
+margin= out of the box
+
+elements
+    1. content-box
+    2. padding-box
+    3. border-box
+    4. margin-box
+
+flex + (5)
+
+TEXT:
+    color
+    font
+    font-family
+    font-size
+    font-weight
+    letter-spacing
+    line-height
+    text-align
+    text-decoration
+    text-indent
+    text-transform
+    vertical-align
+ 
+Layout=
+
+table
+float
+
+property:value;
+
+display:
+    inline
+    block
+    inline-block
+    none
+    flex
+        justify-content 
+        align-content
+        align-items 
+        flex-wrap
+        flex-direction
+    grid
+
+
+overflow
+
+visibility: 
+ 
+before,
+after
+cross axis
+and main axis
+position 
+row & columns
+float
+
+width
+height
+overflow
+box-sizing
+text-decoration
+list-styel-type 
+
+(14-11-2022)
+display 
+    flex  
+        align-items
+        align-content
+        justify-content
+        flex-wrap
+        flex-direction
+    inline
+    block
+    inline-block
+    none    
+
+overlay
+    position-property
+        absolute
+        relative
+        sticky
+        fixed
+        static
+        +
+        top
+        right
+        bottom
+        left
+        +
+        stack-order/ z-index
+
+    display
+    pseudo-class
+    pseudo-elements
+
+min-width = starting point
+max-width = ending point
+
+elements and types + 
+    inline
+    block-level
+Attributes
+    class
+    id
+    href
+    src
+    alt
+    type
+    target
+    
+CSS
+    property: value; 
+    text
+        line-height
+        font-size
+        font-weight
+        color
+        font-styel
+        font-family
+        letter-spacing
+    background-color
+    size
+        width
+        height
+    border
+    spacing
+        padding
+        margin
+
+layout+responsive
+
+
+1rem = 16px
+
+pt-1= padding-top= 4px;
+pt-2= padding-top= 8px;
+pt-3= padding-top= 16px;
+pt-4= padding-top= 24px;
+pt-5= padding-top= 48px;
+ 
+
+Breakpoints
+
+format
+    row = 12
+        col-12
+
+position
+    static
+    sticky
+    absolute
+    relative
+    fixed
+    +
+    top, bottom, left, right
+    +
+    z-index
+    html
+    div
+    h
+    p
+    span
+    
